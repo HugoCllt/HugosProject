@@ -1,0 +1,25 @@
+div.form-contact {
+    display: table-row;
+}
+
+label.normal, input.normal, select, p.form-genre{
+    display: table-cell;
+    margin: 0.6em;
+}
+
+.bouton-env{
+    background-color : #2196F3;
+    color : white;
+    border : 0;
+    border-radius: 3px;
+    padding : 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.bouton-env:hover{
+    background-color : #333;
+}
+
+.bordure-Rouge{
+    border : 2px solid rgba(255,0,0,0.7);
+    border-radius: 3px;
+}

@@ -1,0 +1,78 @@
+
+
+.log {
+    width: clamp(12rem,40vw,15rem);;
+}
+
+.bordure{
+    opacity: 0;
+}
+
+.desc{
+    font-size: clamp(0.7rem, 2.5vw,1.2rem);
+}
+
+.btn{
+    border-color: #2196F3;
+}
+
+.btn:hover{
+    background-color : #2196F3;
+    color : white;
+}
+
+
+
+.txtBtkCard{
+    font-size: clamp(1rem, 1.5vw,2rem);
+}
+
+
+.txtTailleTitreBtkTop{
+    font-size: clamp(2rem, 3vw, 3rem);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+.txtTailleTitreBtk{
+    font-size: clamp(1.5em, 2vw, 3rem);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+.txtTailleTexteBtk{
+    font-size: clamp(1rem, 1.3vw,1.9rem);
+    font-family: 'Roboto', sans-serif;
+}
+
+.margeRea{
+    margin-top: 4rem ;
+}
+
+/*Bouton ajouter au panier*/
+input.button{
+    margin-top : 1em;
+    text-align: center;
+    width: 30%;
+    border : 2px solid #2196F3;
+    border-radius: 3px;
+
+}
+
+tr.cacher {
+    display: none;
+}
+
+/*Bouton plus moins */
+.buttonPM{
+    border : none;
+    background-color : white;
+}
+
+.ButtonAR{
+    background-color : white;
+    padding : 4px 4px 4px 4px ;
+    text-align : center;
+    border-radius: 3px;
+
+}
