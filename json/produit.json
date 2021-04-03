@@ -102,31 +102,31 @@
                     "body" : [
                         {
                         "Simage" : "bodyb1",
-                        "Snom" : "bodyb2",
-                        "Ssaison" : "bodyb3",
-                        "Smod" : "HUBBOARDS HOUSTON NRG+",
-                        "Staille" : "SNIPER JAB - AMAURY PRO SERIES NRG",
-                        "Score" : "NMD BEN PLAYER QUANTUM WIFLY V2 PP",
+                        "Snom" : "HUBBOARDS HOUSTON NRG+",
+                        "Ssaison" : "2021",
+                        "Smod" : "Houston NRG+",
+                        "Staille" : "41.5",
+                        "Score" : "NRG+ - PE",
                         "Sdesc" : "Une board performance et très polyvalente grâce à son NRG Core qui offre une large plage d'utilisation tant en terme de conditions que de températures d'eaux.",
-                        "Sprix" : "2021"
+                        "Sprix" : "309€"
                         },
                         {
-                        "Simage" : "2020",
-                        "Snom" : "2021",
-                        "Ssaison" : "Houston NRG+",
+                        "Simage" : "bodyb2",
+                        "Snom" : "SNIPER JAB - AMAURY PRO SERIES NRG",
+                        "Ssaison" : "2020",
                         "Smod" : "JAB - AMAURY PRO SERIES NRG",
-                        "Staille" : "Ben Player Quantum Wifly V2 PP",
-                        "Score" : "41.5",
+                        "Staille" : "42",
+                        "Score" : "NRG+ - PE",
                         "Sdesc" : "Une board de tous les jours avec un shape polyvalent. Un Body confortable pour scorer dans toutes les conditions, y compris dans les petites vagues. Assez rond sur l'avant pour partir tôt et avoir une maximum de réactivité.",
-                        "Sprix" : "42"
+                        "Sprix" : "230€"
                         },
                         {
-                        "Simage" : "42.5",
-                        "Snom" : "NRG+ - PE",
-                        "Ssaison" : "NRG+ - PE",
-                        "Smod" : "PP - PP",
-                        "Staille" : "309€",
-                        "Score" : "230€",
+                        "Simage" : "bodyb3",
+                        "Snom" : "NMD BEN PLAYER QUANTUM WIFLY V2 PP",
+                        "Ssaison" : "2021",
+                        "Smod" : "Ben Player Quantum Wifly V2 PP",
+                        "Staille" : "42.5",
+                        "Score" : "PP - PP",
                         "Sdesc" : "Une board rigide avec un noyau PP combiné au quad concave pour un maximum de vitesse dans les vagues creuses et rapide avec du contrôle dans les turns serrés ou les manoeuvres sur la lèvre.",
                         "Sprix" : "409€"
                         }

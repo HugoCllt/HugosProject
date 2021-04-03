@@ -122,7 +122,7 @@
       <div class="row g-4 py-4">
         <!-- img actu -->
         <div class="col-lg-6 py-4 ">
-          <a href="Surfs.php">
+          <a href="produit.php?cat=Surfs">
             <div class="card border-0 carte" style="width: 100%;">
               <img class="card-img-top rounded-1 image-zoom" src="images/AccSurf.jpg" alt="Les Surfs">
               <div class="bordure"></div>
@@ -133,7 +133,7 @@
         <!-- img btk -->
 
           <div class="col-lg-6 py-4 ">
-            <a href="Surfs.php">
+            <a href="produit.php?cat=Combinaisons">
               <div class="card border-0 carte" style="width: 100%;">
                 <img class="card-img-top rounded-1 image-zoom" src="images/AccCombinaison.jpg" alt="Les Combinaisons">
                 <div class="bordure"></div>
@@ -147,7 +147,7 @@
       <div class="row g-4 mb-5">
         <!-- img contact -->
         <div class="col-lg-4 py-2 ">
-          <a href="BodyBoards.php">
+          <a href="produit.php?cat=BodyBoards">
             <div class="card border-0 carte" style="width: 100%;">
               <img class="card-img-top rounded-1 image-zoom" src="images/AccBodyBoard2.jpg" alt="Les BodyBoards">
               <div class="bordure"></div>
@@ -157,7 +157,7 @@
         </div>
         <!-- img Bois -->
         <div class="col-lg-4 py-2 ">
-            <a href="Accessoires.php">
+            <a href="produit.php?cat=Accessoires">
               <div class="card border-0 carte" style="width: 100%;">
                 <img class="card-img-top rounded-1 image-zoom" src="images/AccAccessoires.jpg" alt="Les Accessoires">
                 <div class="bordure"></div>
