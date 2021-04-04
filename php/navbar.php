@@ -28,7 +28,10 @@
                         <a class="nav-link <?php if ($page == 'Contact') { echo 'active';}?>" href="contact.php">Contact</a>
                     </li>
                 </ul>
-                <ul class="d-flex txtTailleTexte navbar-nav">
+                <ul class="d-flex txtTailleTexte navbar-nav mt-3">
+                    <li class="nav-item">
+                        <a class="nav-link" href="panier.php">Panier</a>
+                    </li>
                     <?php 
                         if ($page !== "ajouterClient") {
                             if (isset($_SESSION["email"])) {
@@ -43,7 +46,7 @@
                             }
                         }
                     ?>
-                </ul>     
+                </ul>
           </div>
         </div>
       </nav>

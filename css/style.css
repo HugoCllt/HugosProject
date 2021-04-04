@@ -8,6 +8,23 @@
     margin: 1%;
 }
 
+.lien-panier{
+    text-decoration: none;
+    color: white;
+}
+
+.lien-produit{
+    text-decoration: none;
+}
+
+.quantity{
+    width: 10%;
+}
+
+.btn-sans-bordure{
+    border: 0;
+}
+
 .contact{
     text-align: center;
     width: 70%;

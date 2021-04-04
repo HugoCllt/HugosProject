@@ -28,4 +28,23 @@
          $message.='</div>';
       }
    }
+
+   $monfichier = fopen('donneesform.txt', 'a+');
+	fputs($monfichier, "==================================\n"); 
+	fputs($monfichier, $nom."\n"); 
+	fputs($monfichier, $prenom."\n");
+   fputs($monfichier, $email."\n");
+   fputs($monfichier, $datec."\n");
+   fputs($monfichier, $dateN."\n");
+   fputs($monfichier, $job."\n");
+   fputs($monfichier, $sujet."\n");
+   fputs($monfichier, $contenu."\n");
+   
+	fclose($monfichier);
+
+   //redirection page d'accueil
+   header('Location: index.php');
+   exit();
+
+
 ?> 

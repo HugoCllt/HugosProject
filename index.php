@@ -41,47 +41,11 @@
             </div>
           </div>
         </div>
-        <div class="row">
-            <div class="col"> 
-                <h2 class="card-title text-center display-5 txtTailleTitre">Surf où tu veux</h2>
-                <img src="images/sunset.jpg" class="d-block w-100" alt="sunset">
-            </div>
-            <div id="carouselExampleIndicators" class="carousel slide col-2" data-bs-ride="carousel">
-              <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-              </div>
-              <div class="carousel-inner">
-                  <div class="carousel-item active">
-                  <img src="images/imgbtk/combinaison/combiDevant.png" class="d-block w-100" alt="combiDevant">
-                  </div>
-                  <div class="carousel-item">
-                  <img src="images/imgbtk/surfs/Surf3.png" class="d-block w-100" id="Surf3" alt="Surf3">
-                  </div>
-                  <div class="carousel-item">
-                  <img src="images/imgbtk/body/palmes.png" class="d-block w-100" alt="palmes">
-                  </div>
-              </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-              </button>
-            </div>
-            <div class="col">
-                <h2 class="card-title text-center display-5 txtTailleTitre">Surf quand tu veux</h2>
-                <img src="images/goliath.JPG" class="d-block w-100" alt="goliath">
-            </div>
-        </div>
+        
         <div class="row my-5">
           <h2 class="text-center display-4 txtTailleTitre">La boutique SurfCamp c'est</h2>
           <div class="row mx-auto">
             <div class="DivSepT2 mb-5 mt-2 rounded-3 mx-auto"></div>
-            <!-- <hr class="mb-5 mt-3 DivSepT2"> -->
           </div>
           
           <div class="col-sm-4 mx-auto">

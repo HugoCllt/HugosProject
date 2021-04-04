@@ -86,15 +86,17 @@ $data = json_decode(file_get_contents("json/produit.json"), true);
                                     <td>10</td>
                                 </tr>
                             </tbody>
+                            
                             <td>
                                 <div class="ButtonAR d-inline">
                                     <button class="buttonPM" id="moins" onclick="substract('<?php echo $data['categorie'][0]['Surfs'][$i]['Simage'] . 'Quant'; ?>');">-</button>
                                 </div>
-                                <input type="text" class="button" id="<?php echo $data['categorie'][0]['Surfs'][$i]['Simage'] . 'Quant'; ?>" readonly="true" value="0">
+                                <input type="text" class="button" name="<?php echo $data['categorie'][0]['Surfs'][$i]['Simage'] . 'Quant'; ?>" id="<?php echo $data['categorie'][0]['Surfs'][$i]['Simage'] . 'Quant'; ?>" readonly="true" value="0">
                                 <div class="ButtonAR d-inline">
                                     <button class="buttonPM" id="plus" onclick="add('<?php echo $data['categorie'][0]['Surfs'][$i]['Simage'] . 'Quant'; ?>');">+</button>
                                 </div>
-                            <td><button type="button" class="btn colyel mt-2">Ajouter au panier</button></td>
+                                <td><button type="button" class="btn colyel mt-2"><a class='lien-produit' href="panier.php?action=ajout&amp;l=<?php echo $data['categorie'][0]['Surfs'][$i]['Snom']; ?>&amp;q=1&amp;p=<?php echo $data['categorie'][0]['Surfs'][$i]['Sprix']; ?>&amp;img=images/imgbtk/surfs/<?php echo $data['categorie'][0]['Surfs'][$i]['Simage']; ?>.png" onclick="document.location.href='panier.php'">Ajouter au panier</a></button></td>
+                            
                             </td>
                         </table>
                     </div>
@@ -158,7 +160,7 @@ $data = json_decode(file_get_contents("json/produit.json"), true);
                                 <div class="ButtonAR d-inline">
                                     <button class="buttonPM" id="plus" onclick="add('<?php echo $data['categorie'][0]['Combinaisons'][$i]['Simage'] . 'Quant'; ?>');">+</button>
                                 </div>
-                            <td><button type="button" class="btn colyel mt-2">Ajouter au panier</button></td>
+                                <td><button type="button" class="btn colyel mt-2"><a class='lien-produit' href="panier.php?action=ajout&amp;l=<?php echo $data['categorie'][0]['Combinaisons'][$i]['Snom']; ?>&amp;q=1&amp;p=<?php echo $data['categorie'][0]['Combinaisons'][$i]['Sprix']; ?>&amp;img=images/imgbtk/combinaison/<?php echo $data['categorie'][0]['Combinaisons'][$i]['Simage']; ?>.png" onclick="document.location.href='panier.php'">Ajouter au panier</a></button></td>
                             </td>
                         </table>
                     </div>
@@ -225,7 +227,7 @@ $data = json_decode(file_get_contents("json/produit.json"), true);
                                 <div class="ButtonAR d-inline">
                                     <button class="buttonPM" id="plus" onclick="add('<?php echo $data['categorie'][0]['BodyBoards'][0]['body'][$i]['Simage'] . 'Quant'; ?>');">+</button>
                                 </div>
-                            <td><button type="button" class="btn colyel mt-2">Ajouter au panier</button></td>
+                                <td><button type="button" class="btn colyel mt-2"><a class='lien-produit' href="panier.php?action=ajout&amp;l=<?php echo $data['categorie'][0]['BodyBoards'][0]['body'][$i]['Snom']; ?>&amp;q=1&amp;p=<?php echo $data['categorie'][0]['BodyBoards'][0]['body'][$i]['Sprix']; ?>&amp;img=images/imgbtk/body/<?php echo $data['categorie'][0]['BodyBoards'][0]['body'][$i]['Simage']; ?>.png" onclick="document.location.href='panier.php'">Ajouter au panier</a></button></td>
                             </td>
                         </table>
                     </div>
@@ -288,7 +290,7 @@ $data = json_decode(file_get_contents("json/produit.json"), true);
                                 <div class="ButtonAR d-inline">
                                     <button class="buttonPM" id="plus" onclick="add('<?php echo $data['categorie'][0]['BodyBoards'][0]['palme'][$i]['Simage'] . 'Quant'; ?>');">+</button>
                                 </div>
-                            <td><button type="button" class="btn colyel mt-2">Ajouter au panier</button></td>
+                                <td><button type="button" class="btn colyel mt-2"><a class='lien-produit' href="panier.php?action=ajout&amp;l=<?php echo $data['categorie'][0]['BodyBoards'][0]['palme'][$i]['Snom']; ?>&amp;q=1&amp;p=<?php echo $data['categorie'][0]['BodyBoards'][0]['palme'][$i]['Sprix']; ?>&amp;img=images/imgbtk/body/<?php echo $data['categorie'][0]['BodyBoards'][0]['palme'][$i]['Simage']; ?>.png" onclick="document.location.href='panier.php'">Ajouter au panier</a></button></td>
                             </td>
                         </table>
                     </div>
@@ -351,7 +353,7 @@ $data = json_decode(file_get_contents("json/produit.json"), true);
                                 <div class="ButtonAR d-inline">
                                     <button class="buttonPM" id="plus" onclick="add('<?php echo $data['categorie'][0]['Accessoires'][0]['Accessoires1'][$i]['Simage'] . 'Quant'; ?>');">+</button>
                                 </div>
-                            <td><button type="button" class="btn colyel mt-2">Ajouter au panier</button></td>
+                                <td><button type="button" class="btn colyel mt-2"><a class='lien-produit' href="panier.php?action=ajout&amp;l=<?php echo $data['categorie'][0]['Accessoires'][0]['Accessoires1'][$i]['Snom']; ?>&amp;q=1&amp;p=<?php echo $data['categorie'][0]['Accessoires'][0]['Accessoires1'][$i]['Sprix']; ?>&amp;img=images/imgbtk/accessoires/<?php echo $data['categorie'][0]['Accessoires'][0]['Accessoires1'][$i]['Simage']; ?>.png" onclick="document.location.href='panier.php'">Ajouter au panier</a></button></td>
                             </td>
                         </table>
                     </div>
@@ -416,7 +418,7 @@ $data = json_decode(file_get_contents("json/produit.json"), true);
                                 <div class="ButtonAR d-inline">
                                     <button class="buttonPM" id="plus" onclick="add('<?php echo $data['categorie'][0]['Accessoires'][0]['Accessoires2'][$i]['Simage'] . 'Quant'; ?>');">+</button>
                                 </div>
-                            <td><button type="button" class="btn colyel mt-2">Ajouter au panier</button></td>
+                                <td><button type="button" class="btn colyel mt-2"><a class='lien-produit' href="panier.php?action=ajout&amp;l=<?php echo $data['categorie'][0]['Accessoires'][0]['Accessoires2'][$i]['Snom']; ?>&amp;q=1&amp;p=<?php echo $data['categorie'][0]['Accessoires'][0]['Accessoires2'][$i]['Sprix']; ?>&amp;img=images/imgbtk/accessoires/<?php echo $data['categorie'][0]['Accessoires'][0]['Accessoires2'][$i]['Simage']; ?>.png" onclick="document.location.href='panier.php'">Ajouter au panier</a></button></td>
                             </td>
                         </table>
                     </div>
@@ -431,7 +433,7 @@ $data = json_decode(file_get_contents("json/produit.json"), true);
 
     <?php include('php/Footer.php'); ?>
 
-    <script src="js/surf.js"></script>
+    <script src="js/script.js"></script>
     <script src="js/general.js"></script>
 </body>
 
