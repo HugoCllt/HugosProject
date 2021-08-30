@@ -1,17 +1,19 @@
-Bonjour,
-Ce document texte explique certaines fonctionnalités et certains points importants de notre projet.
+Hello,
+This text document explains some functionalities and some important points of our project.
 
-Concernant la BDD et les données :
-les fichiers se trouvent dans le dossier PHP.
-Il y a :
-- un script sql pour la création des tables
-- un script php pour récupérer les données anciennement présente dans le json afin de les insérer dans la BDD.
+Concerning the DB and the data :
+the files are located in the PHP folder.
+There are :
+- a sql script to create the tables
+- a php script to recover the data formerly present in the json in order to insert them in the DB.
 
-IMPORTANT : afin d'exécuter le script php, nous avons mis dans la navbar un onglet nommé "data".
-Après avoir importé le fichier sql et avoir créé la data base, il faut donc cliquer sur cet onglet pour que l'importation soit effectuée.
-Il est important de noter que cet onglet n'est présent que pour les personnes voulant exécuter notre projet.
-Cet onglet n'est en aucun cas une fonctionnalité présente sur la version finale du site.
+IMPORTANT: in order to execute the php script, we put in the navbar a tab named "data".
+After having imported the sql file and having created the data base, it is necessary to click on this tab so that the importation is carried out.
+It is important to note that this tab is only present for people who want to run our project.
+This tab is in no way a feature present on the final version of the site.
 
-Concernant les comptes admin, il est possible de se connecter en admin en utilisant les identifiants présents dans le fichier json identifiant.json.
-Le compte admin permet d'afficher les stocks.
-Sinon il est possible de se créer un compte, mais un compte normal n'au pas les mêmes fonctionnalités qu'un compte admin.
+Concerning the admin accounts, it is possible to connect as admin using the identifiers present in the json file identifier.json.
+The admin account allows to display the stocks.
+Otherwise it is possible to create an account, but a normal account does not have the same features as an admin account.
+
+Translated with www.DeepL.com/Translator (free version)
