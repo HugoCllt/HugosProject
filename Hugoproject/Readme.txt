@@ -15,5 +15,3 @@ This tab is in no way a feature present on the final version of the site.
 Concerning the admin accounts, it is possible to connect as admin using the identifiers present in the json file identifier.json.
 The admin account allows to display the stocks.
 Otherwise it is possible to create an account, but a normal account does not have the same features as an admin account.
-
-Translated with www.DeepL.com/Translator (free version)
