@@ -1,3 +1,3 @@
 # HugosProject
-This website is an academic project done with Hugo Cambra in his first year of engineering school.
-This website allowed us to have the basics of web development.
+This website is an academic project realized with Hugo Cambra during our first year of engineering school. 
+This site allowed us to have the basics of web development.
